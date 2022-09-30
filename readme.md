@@ -1,30 +1,31 @@
-# tilt sensor(±â¿ï±â ¼¾¼­) SW-520D
-	- ±â¿ï±â°¡ °¡ÇØÁ³À» ¶§ HIGH°ª Ãâ·ÂÀ» ÇÏ´Â ¼¾¼­ÀÔ´Ï´Ù.
-	- Á¦Ç°ÀÇ °¡º¯ÀúÇ×À» Á¶ÀýÇÏ¿© °ªÀ» Ãâ·ÂÇÏ´Â ¹Î°¨µµ¸¦ Á¶ÀýÇÒ ¼ö ÀÖ½À´Ï´Ù.
+# tilt sensor(ê¸°ìš¸ê¸° ì„¼ì„œ) SW-520D
+	- ê¸°ìš¸ê¸°ê°€ ê°€í•´ì¡Œì„ ë•Œ HIGHê°’ ì¶œë ¥ì„ í•˜ëŠ” ì„¼ì„œìž…ë‹ˆë‹¤.
+	- ì œí’ˆì˜ ê°€ë³€ì €í•­ì„ ì¡°ì ˆí•˜ì—¬ ê°’ì„ ì¶œë ¥í•˜ëŠ” ë¯¼ê°ë„ë¥¼ ì¡°ì ˆí•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
 
-## Á¦Ç° »çÁø
+## ì œí’ˆ ì‚¬ì§„
 ![product_img.jpg](./img/product_img.jpg)
 
-## »ç¾ç
-	- ÀÛµ¿ Àü¾Ð : 3.3V ~ 5V
+## ì‚¬ì–‘
+	- ìž‘ë™ ì „ì•• : 3.3V ~ 5V
 
-## ÇÊ¿ä H/W
+## í•„ìš” H/W
 	- tilt sensor
 	- Arduino UNO
 	- UNO cable
 	- M-F cable(3ea)
 
-## ¿¬°á
-	- D7 ´ë½Å ´Ù¸° µðÁöÅÐ ÇÉ¿¡ ¿¬°áÇÏ¿© »ç¿ë°¡´É(º»¹®¿¡¼­´Â D7»ç¿ë)
+## ì—°ê²°
+	- D7 ëŒ€ì‹  ë‹¤ë¦° ë””ì§€í„¸ í•€ì— ì—°ê²°í•˜ì—¬ ì‚¬ìš©ê°€ëŠ¥(ë³¸ë¬¸ì—ì„œëŠ” D7ì‚¬ìš©)
 
 |SW-520D|Arduino UNO|
 |--|--|
-|D0|D7(º¯°æ°¡´É)|
+|D0|D7(ë³€ê²½ê°€ëŠ¥)|
 |GND|GND|
 |VCC|5V|
 
 ![schematic.jpg](./img/schematic.jpg)
 
-## example_code_1 Âü°í
-	- ½ÇÇà °á°ú
+## example_code_1 ì°¸ê³ 
+	- ì‹¤í–‰ ê²°ê³¼
+
 ![example_code_1_result.gif](./img/example_code_1_result.gif)
